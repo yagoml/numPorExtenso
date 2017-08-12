@@ -43,7 +43,7 @@ define [], ->
 
 			if num > 99 # CENTENAS
 				nNum = Number (String num).charAt(0)
-				cWords = if num is 100 then CENTENAS[nNum-1] else CENTENAS[nNum]
+				cWords = " " + (if num is 100 then CENTENAS[nNum-1] else CENTENAS[nNum])
 				num %= 100
 				cWords += " e " if num
 
