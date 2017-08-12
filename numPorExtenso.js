@@ -48,7 +48,7 @@ NumPorExtenso = {
 		num %= 1000;
 		if (num > 99) {
 			nNum = Number((String(num)).charAt(0));
-			cWords = num === 100 ? CENTENAS[nNum - 1] : CENTENAS[nNum];
+			cWords = " " + (num === 100 ? CENTENAS[nNum - 1] : CENTENAS[nNum]);
 			num %= 100;
 			if (num) {
 				cWords += " e ";
