@@ -1,6 +1,6 @@
 ## numPorExtenso
 
-Escreve número por extenso (pt-br)
+Transcrição de números por extenso (pt-br) Javascript
 ____________________________________________________________________
 ### Parâmetros
 
